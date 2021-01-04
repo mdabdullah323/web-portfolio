@@ -7,6 +7,7 @@ h1{
 }
 h2{
     font-size: 40px;
+    color: blue;
 }
 p{
     color: dimgray;
@@ -54,6 +55,9 @@ section{
     background-image: url("images/a.png");
     background-repeat: no-repeat;
     background-position: left;
+    overflow:scroll;
+    text-align: center;
+    
 }
 #full-stack{
     border-left: 7px solid;
@@ -65,3 +69,10 @@ section{
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
 }
+footer p{
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    
+}
+    
